@@ -1,0 +1,99 @@
+@keyframes orbit {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.orbit {
+    width: 400px;
+    height: 400px;
+    box-sizing: border-box;
+    padding-left: 200px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    overflow: visible;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+
+    animation: orbit 10s linear infinite;
+}
+
+@keyframes tilt {
+    from {
+        background-position-x: 0%;
+        transform: rotate(0deg);
+    }
+    to {
+        background-position-x: 200%;
+        transform: rotate(-360deg);
+
+    }
+}
+
+
+.planet {
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+    margin-top: -50px;
+    border-radius: 50%;
+    animation: tilt 10s linear infinite;
+    background-size: cover;
+    background-position-x: 0px;
+}
+#sun {
+    background: url('../img/planet/sun.jpg');
+    background-size: cover;
+    background-position-x: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+#mercury {
+    background: url('../img/planet/mercury.jpg');
+    background-size: cover;
+    background-position-x: 0px;
+}
+#venus {
+    background: url('../img/planet/venus.jpg');
+    background-size: cover;
+    background-position-x: 0px;
+}
+#earth {
+    background: url('../img/planet/earth.jpg');
+    background-size: cover;
+    background-position-x: 0px;
+}
+#mars {
+    background: url('../img/planet/mars.jpg');
+    background-size: cover;
+    background-position-x: 0px;
+}
+#jupiter {
+    background: url('../img/planet/jupiter.jpg');
+    background-size: cover;
+    background-position-x: 0px;
+}
+#saturn {
+    background: url('../img/planet/saturn.jpg');
+    background-size: cover;
+    background-position-x: 0px;
+}
+#uranus {
+    background: url('../img/planet/uranus.jpg');
+    background-size: cover;
+    background-position-x: 0px;
+}
+#neptune {
+    background: url('../img/planet/neptune.jpg');
+    background-size: cover;
+    background-position-x: 0px;
+}
