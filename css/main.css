@@ -1,0 +1,15 @@
+* {
+    font-family: 'Sarabun', sans-serif;
+}
+body {
+    background: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    padding: 0;
+    margin: 0;
+}
+#solar-system {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
