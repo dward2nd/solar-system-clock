@@ -35,12 +35,14 @@ var circularRotator = [
 var sun = document.getElementById('sun');
 
 var loadpage = document.getElementById('loadpage');
+var solarSystem = document.getElementById('solar-system');
 
 window.addEventListener("load", function() {
     setTimeout(function() {
         loadpage.style.opacity = '0';
         loadpage.style.zIndex = '-1';
         loadpage.style.display = 'none';
+        solarSystem.style.visibility = 'visible';
     }, 1000);
     
     for(i=0; i<8; i++) {
