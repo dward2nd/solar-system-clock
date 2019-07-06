@@ -71,11 +71,11 @@
     transform: rotate(7.25deg);
 }
 .orbit#mercury {
-    width: 80vmin;
-    height: 80vmin;
-    padding-left: 40vmin;
-    margin-left: -40vmin;
-    margin-top: -40vmin;
+    width: 10vmin;
+    height: 10vmin;
+    padding-left: 5vmin;
+    margin-left: -5vmin;
+    margin-top: -5vmin;
 }
 .planet#mercury {
     background: url('../img/planet/mercury.jpg');
@@ -85,11 +85,11 @@
     margin-top: -0.625vmin;
 }
 .orbit#venus {
-    width: 10vmin;
-    height: 10vmin;
-    padding-left: 5vmin;
-    margin-left: -5vmin;
-    margin-top: -5vmin;
+    width: 20vmin;
+    height: 20vmin;
+    padding-left: 10vmin;
+    margin-left: -10vmin;
+    margin-top: -10vmin;
 }
 .planet#venus {
     background: url('../img/planet/venus.jpg');
@@ -99,11 +99,11 @@
     margin-top: -0.625vmin;
 }
 .orbit#earth {
-    width: 80vmin;
-    height: 80vmin;
-    padding-left: 40vmin;
-    margin-left: -40vmin;
-    margin-top: -40vmin;
+    width: 30vmin;
+    height: 30vmin;
+    padding-left: 15vmin;
+    margin-left: -15vmin;
+    margin-top: -15vmin;
 }
 .planet#earth {
     background: url('../img/planet/earth.jpg');
@@ -113,11 +113,11 @@
     margin-top: -0.625vmin;
 }
 .orbit#mars {
-    width: 80vmin;
-    height: 80vmin;
-    padding-left: 40vmin;
-    margin-left: -40vmin;
-    margin-top: -40vmin;
+    width: 40vmin;
+    height: 40vmin;
+    padding-left: 20vmin;
+    margin-left: -20vmin;
+    margin-top: -20vmin;
 }
 .planet#mars {
     background: url('../img/planet/mars.jpg');
@@ -127,11 +127,11 @@
     margin-top: -0.625vmin;
 }
 .orbit#jupiter {
-    width: 80vmin;
-    height: 80vmin;
-    padding-left: 40vmin;
-    margin-left: -40vmin;
-    margin-top: -40vmin;
+    width: 50vmin;
+    height: 50vmin;
+    padding-left: 25vmin;
+    margin-left: -25vmin;
+    margin-top: -25vmin;
 }
 .planet#jupiter {
     background: url('../img/planet/jupiter.jpg');
@@ -140,12 +140,12 @@
     margin-left: -0.625vmin;
     margin-top: -0.625vmin;
 }
-.orbit#jupiter {
-    width: 80vmin;
-    height: 80vmin;
-    padding-left: 40vmin;
-    margin-left: -40vmin;
-    margin-top: -40vmin;
+.orbit#saturn {
+    width: 60vmin;
+    height: 60vmin;
+    padding-left: 30vmin;
+    margin-left: -30vmin;
+    margin-top: -30vmin;
 }
 .planet#saturn {
     background: url('../img/planet/saturn.jpg');
@@ -155,11 +155,11 @@
     margin-top: -0.625vmin;
 }
 .orbit#uranus {
-    width: 80vmin;
-    height: 80vmin;
-    padding-left: 40vmin;
-    margin-left: -40vmin;
-    margin-top: -40vmin;
+    width: 70vmin;
+    height: 70vmin;
+    padding-left: 35vmin;
+    margin-left: -35vmin;
+    margin-top: -35vmin;
 }
 .planet#uranus {
     background: url('../img/planet/uranus.jpg');
