@@ -70,40 +70,103 @@
     animation: tilt 25.38787023s linear infinite;
     transform: rotate(7.25deg);
 }
-#mercury {
+.orbit#mercury {
+    width: 80vmin;
+    height: 80vmin;
+    padding-left: 40vmin;
+    margin-left: -40vmin;
+    margin-top: -40vmin;
+}
+.planet#mercury {
     background: url('../img/planet/mercury.jpg');
-    background-size: cover;
-    background-position-x: 0px;
+    width: 1.25vmin;
+    height: 1.25vmin;
+    margin-left: -0.625vmin;
+    margin-top: -0.625vmin;
 }
-#venus {
+.orbit#venus {
+    width: 10vmin;
+    height: 10vmin;
+    padding-left: 5vmin;
+    margin-left: -5vmin;
+    margin-top: -5vmin;
+}
+.planet#venus {
     background: url('../img/planet/venus.jpg');
-    background-size: cover;
-    background-position-x: 0px;
+    width: 1.25vmin;
+    height: 1.25vmin;
+    margin-left: -0.625vmin;
+    margin-top: -0.625vmin;
 }
-#earth {
+.orbit#earth {
+    width: 80vmin;
+    height: 80vmin;
+    padding-left: 40vmin;
+    margin-left: -40vmin;
+    margin-top: -40vmin;
+}
+.planet#earth {
     background: url('../img/planet/earth.jpg');
-    background-size: cover;
-    background-position-x: 0px;
+    width: 1.25vmin;
+    height: 1.25vmin;
+    margin-left: -0.625vmin;
+    margin-top: -0.625vmin;
 }
-#mars {
+.orbit#mars {
+    width: 80vmin;
+    height: 80vmin;
+    padding-left: 40vmin;
+    margin-left: -40vmin;
+    margin-top: -40vmin;
+}
+.planet#mars {
     background: url('../img/planet/mars.jpg');
-    background-size: cover;
-    background-position-x: 0px;
+    width: 1.25vmin;
+    height: 1.25vmin;
+    margin-left: -0.625vmin;
+    margin-top: -0.625vmin;
 }
-#jupiter {
+.orbit#jupiter {
+    width: 80vmin;
+    height: 80vmin;
+    padding-left: 40vmin;
+    margin-left: -40vmin;
+    margin-top: -40vmin;
+}
+.planet#jupiter {
     background: url('../img/planet/jupiter.jpg');
-    background-size: cover;
-    background-position-x: 0px;
+    width: 1.25vmin;
+    height: 1.25vmin;
+    margin-left: -0.625vmin;
+    margin-top: -0.625vmin;
 }
-#saturn {
+.orbit#jupiter {
+    width: 80vmin;
+    height: 80vmin;
+    padding-left: 40vmin;
+    margin-left: -40vmin;
+    margin-top: -40vmin;
+}
+.planet#saturn {
     background: url('../img/planet/saturn.jpg');
-    background-size: cover;
-    background-position-x: 0px;
+    width: 1.25vmin;
+    height: 1.25vmin;
+    margin-left: -0.625vmin;
+    margin-top: -0.625vmin;
 }
-#uranus {
+.orbit#uranus {
+    width: 80vmin;
+    height: 80vmin;
+    padding-left: 40vmin;
+    margin-left: -40vmin;
+    margin-top: -40vmin;
+}
+.planet#uranus {
     background: url('../img/planet/uranus.jpg');
-    background-size: cover;
-    background-position-x: 0px;
+    width: 1.25vmin;
+    height: 1.25vmin;
+    margin-left: -0.625vmin;
+    margin-top: -0.625vmin;
 }
 .orbit#neptune {
     width: 80vmin;
