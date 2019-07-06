@@ -12,6 +12,28 @@ body {
     padding: 0;
     margin: 0;
 }
+#loadpage {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/loading.jpg');
+    background-position: center;
+    background-size: cover;
+    transition: opacity 2s ease, z-index 5s ease;
+}
+#loadpage h1 {
+    text-align: center;
+    font-size: 5vmin;
+    width: 25vmin;
+    height: 15vmin;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -12.5vmin;
+    margin-top: -7.5vmin;
+    color: #fff;
+}
 #solar-system {
     width: 100vw;
     height: 100vh;

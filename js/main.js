@@ -32,7 +32,14 @@ var circularRotator = [
     document.querySelector(".circularRotator#neptune")
 ];
 
+var loadpage = document.getElementById('loadpage');
+
 window.addEventListener("load", function() {
+    setTimeout(function() {
+        loadpage.style.opacity = '0';
+        loadpage.style.zIndex = '-1';
+    }, 1000);
+    
     for(i=0; i<8; i++) {
         // set orbit
         orbitEl[i].style.width = planet[i].shownOrbit + 'vmin';
