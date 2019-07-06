@@ -54,14 +54,19 @@
     background-size: cover;
     z-index: 1;
 }
-#sun {
+.orbit#sun {
+    width: 0vmin;
+    height: 0vmin;
+    padding-left: 0vmin;
+    margin-left: -0vmin;
+    margin-top: -0vmin;
+}
+.planet#sun {
     background: url('../img/planet/sun.jpg');
     background-size: cover;
     background-position-x: center;
     border-radius: 50%;
     position: absolute;
-    top: 50%;
-    left: 50%;
     margin-left: -2.5vmin;
     margin-top: -2.5vmin;
     width: 5vmin;
