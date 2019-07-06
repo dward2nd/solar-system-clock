@@ -8,18 +8,22 @@
 }
 
 .orbit {
+    /*
     width: 400px;
     height: 400px;
+    */
     box-sizing: border-box;
-    padding-left: 200px;
+    /* padding-left: 200px; */
     border-radius: 50%;
-    border: 1px solid #eee;
+    border: 1px solid rgba(255, 255, 255, 0.4);
     overflow: visible;
     position: absolute;
     top: 50%;
     left: 50%;
+    /*
     margin-left: -200px;
     margin-top: -200px;
+    */
 
     animation: orbit 10s linear infinite;
 }
@@ -27,35 +31,44 @@
 @keyframes tilt {
     from {
         background-position-x: 0%;
-        transform: rotate(0deg);
     }
     to {
         background-position-x: 200%;
+    }
+}
+@keyframes fixOrbitTilt {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
         transform: rotate(-360deg);
-
     }
 }
 
 
 .planet {
-    width: 100px;
-    height: 100px;
-    margin-left: -50px;
-    margin-top: -50px;
     border-radius: 50%;
     animation: tilt 10s linear infinite;
     background-size: cover;
     background-position-x: 0px;
+    background-size: cover;
+    z-index: 1;
 }
 #sun {
     background: url('../img/planet/sun.jpg');
     background-size: cover;
-    background-position-x: 0px;
+    background-position-x: center;
+    border-radius: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-left: -50px;
-    margin-top: -50px;
+    margin-left: -2.5vmin;
+    margin-top: -2.5vmin;
+    width: 5vmin;
+    height: 5vmin;
+    box-shadow: #fea824 0px 0px 2.5vmin;
+    animation: tilt 25.38787023s linear infinite;
+    transform: rotate(7.25deg);
 }
 #mercury {
     background: url('../img/planet/mercury.jpg');
@@ -92,8 +105,17 @@
     background-size: cover;
     background-position-x: 0px;
 }
-#neptune {
+.orbit#neptune {
+    width: 80vmin;
+    height: 80vmin;
+    padding-left: 40vmin;
+    margin-left: -40vmin;
+    margin-top: -40vmin;
+}
+.planet#neptune {
     background: url('../img/planet/neptune.jpg');
-    background-size: cover;
-    background-position-x: 0px;
+    width: 1.25vmin;
+    height: 1.25vmin;
+    margin-left: -0.625vmin;
+    margin-top: -0.625vmin;
 }

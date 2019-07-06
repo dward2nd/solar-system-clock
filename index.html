@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/planet.css">
     <link href="https://fonts.googleapis.com/css?family=Sarabun&display=swap" rel="stylesheet">
     <title>Solar System Clock</title>
 </head>
 <body>
     <div id="solar-system">
-        <div class="planet" id="sun"></div>
+        <div id="sun"></div>
         <!--
         <div class="orbit">
             <div class="planet" id="mercury"></div>
@@ -32,12 +33,18 @@
             <div class="planet" id="saturn"></div>
         </div>
     -->
-        <div class="orbit">
-            <div class="planet" id="uranus"></div>
-        </div>
-        <div class="orbit">
+        <div class="orbit" id="neptune">
             <div class="planet" id="neptune"></div>
         </div>
+        <div class="orbit" style="width: 57.2vmin; height: 57.2vmin; margin-left: -28.6vmin; margin-top: -28.6vmin;">
+            <div class="planet" id="uranus" style="margin: auto; margin-top: -50px;"></div>
+        </div>
     </div>
+
+    <div id="control-panel">
+        <!-- assume we use 1s = 1 month -->
+
+    </div>
+    <script src="js/main.js"></script>
 </body>
 </html>
