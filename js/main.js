@@ -32,6 +32,8 @@ var circularRotator = [
     document.querySelector(".circularRotator#neptune")
 ];
 
+var sun = document.getElementById('sun');
+
 var loadpage = document.getElementById('loadpage');
 
 window.addEventListener("load", function() {
@@ -47,6 +49,8 @@ window.addEventListener("load", function() {
         orbitEl[i].style.paddingLeft = (planet[i].shownOrbit / 2) + 'vmin';
         orbitEl[i].style.marginLeft = '-' + (planet[i].shownOrbit / 2) + 'vmin';
         orbitEl[i].style.marginTop = '-' + (planet[i].shownOrbit / 2) + 'vmin';
+        orbitEl[i].style.animationDuration = planet[i].orbitPeriod + 's';
+        orbitEl[i].style.animationPlayState = 'running';
 
         // set planet
         planetEl[i].style.width = planet[i].shownLength + 'vmin';

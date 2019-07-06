@@ -25,7 +25,11 @@
     margin-top: -200px;
     */
 
-    animation: orbit 10s linear infinite;
+    /* animation: orbit 10s linear infinite; */
+    animation-name: orbit;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
 }
 
 @keyframes tilt {

@@ -2,12 +2,12 @@ var planet = [
     {
         name: 'Mercury',
         imgurl: '../img/planet/mercury.jpg',
-        shownOrbit: 15, // vmin
-        shownLength: 5, // vmin
-        tiltPeriod: 58.646, // days per period
+        shownOrbit: 12.5, // vmin
+        shownLength: 1.5, // vmin
+        tiltPeriod: 87.969, // days per period
         tiltAngle: 0, // degree
-        orbitPeriod: 0.2408467, // years
-        orbitAngle: 0, // degree note: add later
+        orbitPeriod: 87.969, // day per 2pi
+        orbitAngle: 3.43776, // rad note: add later
         orbitRadius: 5.7909227e7, // kilometers
         volume: 6.0827208742e10, // km^3
         mass: 3.30104e23, // kg
@@ -21,11 +21,11 @@ var planet = [
     }, {
         name: 'Venus',
         imgurl: '../img/planet/venus.jpg',
-        shownOrbit: 25, // vmin
-        shownLength: 5, // vmin
+        shownOrbit: 19, // vmin
+        shownLength: 2.5, // vmin
         tiltPeriod: 58.646, // days per period
         tiltAngle: 0, // degree
-        orbitPeriod: 0.2408467, // years
+        orbitPeriod: 224.701, // years
         orbitAngle: 0, // degree note: add later
         orbitRadius: 5.7909227e7, // kilometers
         volume: 6.0827208742e10, // km^3
@@ -40,11 +40,11 @@ var planet = [
     }, {
         name: 'Earth',
         imgurl: '../img/planet/earth.jpg',
-        shownOrbit: 35, // vmin
-        shownLength: 5, // vmin
+        shownOrbit: 25, // vmin
+        shownLength: 2.5, // vmin
         tiltPeriod: 58.646, // days per period
         tiltAngle: 0, // degree
-        orbitPeriod: 0.2408467, // years
+        orbitPeriod: 365.256, // years
         orbitAngle: 0, // degree note: add later
         orbitRadius: 5.7909227e7, // kilometers
         volume: 6.0827208742e10, // km^3
@@ -59,11 +59,11 @@ var planet = [
     }, {
         name: 'Mars',
         imgurl: '../img/planet/mars.jpg',
-        shownOrbit: 45, // vmin
-        shownLength: 5, // vmin
+        shownOrbit: 34, // vmin
+        shownLength: 2, // vmin
         tiltPeriod: 58.646, // days per period
         tiltAngle: 0, // degree
-        orbitPeriod: 0.2408467, // years
+        orbitPeriod: 686.980, // years
         orbitAngle: 0, // degree note: add later
         orbitRadius: 5.7909227e7, // kilometers
         volume: 6.0827208742e10, // km^3
@@ -78,11 +78,11 @@ var planet = [
     }, {
         name: 'Jupiter',
         imgurl: '../img/planet/jupiter.jpg',
-        shownOrbit: 55, // vmin
-        shownLength: 5, // vmin
+        shownOrbit: 46.5, // vmin
+        shownLength: 7, // vmin
         tiltPeriod: 58.646, // days per period
         tiltAngle: 0, // degree
-        orbitPeriod: 0.2408467, // years
+        orbitPeriod: 4331.93616, // years
         orbitAngle: 0, // degree note: add later
         orbitRadius: 5.7909227e7, // kilometers
         volume: 6.0827208742e10, // km^3
@@ -97,11 +97,11 @@ var planet = [
     }, {
         name: 'Saturn',
         imgurl: '../img/planet/saturn.jpg',
-        shownOrbit: 65, // vmin
-        shownLength: 5, // vmin
-        tiltPeriod: 58.646, // days per period
+        shownOrbit: 61, // vmin
+        shownLength: 6, // vmin
+        tiltPeriod: 0, // days per period
         tiltAngle: 0, // degree
-        orbitPeriod: 0.2408467, // years
+        orbitPeriod: 10760.44176, // years
         orbitAngle: 0, // degree note: add later
         orbitRadius: 5.7909227e7, // kilometers
         volume: 6.0827208742e10, // km^3
@@ -116,11 +116,11 @@ var planet = [
     }, {
         name: 'Uranus',
         imgurl: '../img/planet/uranus.jpg',
-        shownOrbit: 75, // vmin
+        shownOrbit: 74, // vmin
         shownLength: 5, // vmin
         tiltPeriod: 58.646, // days per period
         tiltAngle: 0, // degree
-        orbitPeriod: 0.2408467, // years
+        orbitPeriod: 30589.24283, // years
         orbitAngle: 0, // degree note: add later
         orbitRadius: 5.7909227e7, // kilometers
         volume: 6.0827208742e10, // km^3
@@ -135,11 +135,11 @@ var planet = [
     }, {
         name: 'Neptune',
         imgurl: '../img/planet/neptune.jpg',
-        shownOrbit: 85, // vmin
+        shownOrbit: 87.5, // vmin
         shownLength: 5, // vmin
         tiltPeriod: 58.646, // days per period
         tiltAngle: 0, // degree
-        orbitPeriod: 0.2408467, // years
+        orbitPeriod: 59800.88278, // years
         orbitAngle: 0, // degree note: add later
         orbitRadius: 5.7909227e7, // kilometers
         volume: 6.0827208742e10, // km^3
