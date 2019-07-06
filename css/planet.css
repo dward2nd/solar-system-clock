@@ -30,6 +30,7 @@
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-play-state: paused;
+    animation-fill-mode: both;
 }
 
 @keyframes tilt {

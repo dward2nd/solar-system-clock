@@ -39,3 +39,18 @@ body {
     height: 100vh;
     position: fixed;
 }
+
+#control-panel {
+    background-color: #fff;
+    position: fixed;
+    top: 100%;
+    left: 50%;
+    width: 15vmin;
+    height: 7.5vmin;
+    margin-top: -9vmin;
+    margin-left: -7.5vmin;
+    text-align: center;
+}
+#speed {
+    width: 10%;
+}
