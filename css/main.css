@@ -25,12 +25,12 @@ body {
 #loadpage h1 {
     text-align: center;
     font-size: 5vmin;
-    width: 25vmin;
+    width: 100vw;
     height: 15vmin;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-left: -12.5vmin;
+    margin-left: -50vw;
     margin-top: -7.5vmin;
     color: #fff;
 }
@@ -38,7 +38,8 @@ body {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    visibility: hidden;
+    opacity: 0;
+    transition: opacity 2s ease;
 }
 
 #control-panel {

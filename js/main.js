@@ -41,8 +41,8 @@ window.addEventListener("load", function() {
     setTimeout(function() {
         loadpage.style.opacity = '0';
         loadpage.style.zIndex = '-1';
-        loadpage.style.display = 'none';
-        solarSystem.style.visibility = 'visible';
+        // loadpage.style.display = 'none';
+        solarSystem.style.opacity = '1';
     }, 1000);
     
     for(i=0; i<8; i++) {
