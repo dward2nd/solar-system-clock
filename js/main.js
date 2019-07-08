@@ -35,6 +35,7 @@ var circularRotator = [
 var sun = document.getElementById('sun');
 
 var loadpage = document.getElementById('loadpage');
+var controlpanel = document.getElementById('control-panel');
 var solarSystem = document.getElementById('solar-system');
 
 window.addEventListener("load", function() {
@@ -43,6 +44,8 @@ window.addEventListener("load", function() {
         loadpage.style.zIndex = '-1';
         // loadpage.style.display = 'none';
         solarSystem.style.opacity = '1';
+        controlpanel.style.opacity = '1';
+        
     }, 1000);
     setTimeout(function() {
         loadpage.style.display = 'none';
