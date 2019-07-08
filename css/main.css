@@ -5,10 +5,8 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background: url('../img/bg.jpg'), black;
+    background: url('../img/bg.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center middle;
     padding: 0;
     margin: 0;
 }
@@ -20,7 +18,7 @@ body {
     background-image: url('../img/loading.jpg');
     background-position: center;
     background-size: cover;
-    transition: opacity 2s ease, z-index 5s ease;
+    transition: opacity 1s ease, z-index 1s ease;
 }
 #loadpage h1 {
     text-align: center;
@@ -36,23 +34,40 @@ body {
 }
 #solar-system {
     width: 100vw;
-    height: 100vh;
+    height: 85vh;
     position: fixed;
     opacity: 0;
-    transition: opacity 2s ease;
+    transition: opacity 1s ease;
 }
 
 #control-panel {
-    background-color: #fff;
+    box-sizing: border-box;
+    padding-top: 15px;
+    background-color: rgba(0,0,0,0.4);
+    border-top: 3px solid #bbf;
+    box-shadow: #bbf 0 0 5px;
     position: fixed;
     top: 100%;
     left: 50%;
-    width: 15vmin;
-    height: 7.5vmin;
-    margin-top: -9vmin;
-    margin-left: -7.5vmin;
+    text-align: center;
+    color: #fff;
+    width: 70vw;
+    height: 7.5vh;
+    margin-top: -7.5vh;
+    margin-left: -35vw;
+    border-radius: 15px 15px 0 0;
+}
+
+#speed {
+    width: 9vw;
     text-align: center;
 }
-#speed {
-    width: 10%;
-}
+
+@media screen and (max-width: 600px) {
+    #control-panel {
+        width: 95vw;
+        height: 7.5vh;
+        margin-left: -47.5vw;
+        margin-top: -7.5vh;
+    }
+  }

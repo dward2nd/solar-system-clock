@@ -44,6 +44,9 @@ window.addEventListener("load", function() {
         // loadpage.style.display = 'none';
         solarSystem.style.opacity = '1';
     }, 1000);
+    setTimeout(function() {
+        loadpage.style.display = 'none';
+    }, 2000);
     
     for(i=0; i<8; i++) {
         // set orbit
