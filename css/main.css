@@ -34,7 +34,7 @@ body {
 }
 #solar-system {
     width: 100vw;
-    height: 85vh;
+    height: 100vh;
     position: fixed;
     opacity: 0;
     transition: opacity 1s ease;
