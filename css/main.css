@@ -39,6 +39,25 @@ body {
     opacity: 0;
     transition: opacity 1s ease;
 }
+.tooltip {
+    position: absolute;
+    visibility: hidden;
+    z-index: 1;
+    left: 50%;
+    bottom: 125%;
+    margin-left: 
+    width: 60px;
+
+    padding: 5px 0;
+    background: #000;
+    border-radius: 10px;
+    box-shadow: #777 2px 2px 5px;
+    text-align: center;
+
+    /* fading */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
 
 #control-panel {
     box-sizing: border-box;
@@ -68,8 +87,8 @@ body {
 @media screen and (max-width: 600px) {
     #control-panel {
         width: 95vw;
-        height: 7.5vh;
+        height: 9vh;
         margin-left: -47.5vw;
-        margin-top: -7.5vh;
+        margin-top: -9vh;
     }
   }
