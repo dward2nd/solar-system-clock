@@ -58,6 +58,7 @@ body {
     border-radius: 10px;
     box-shadow: #777 2px 2px 5px;
     text-align: center;
+    color: white;
     
     /* fading */
     opacity: 0;

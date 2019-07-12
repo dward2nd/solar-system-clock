@@ -94,27 +94,53 @@
 }
 .planet#mercury {
     background-image: url('../img/planet/mercury.jpg');
-    transform: rotate(0deg);
 }
 .planet#venus {
     background-image: url('../img/planet/venus.jpg');
+    transform: rotate(177.3deg);
+}
+.planet#venus .tooltip {
+    transform: rotate(-177.3deg);
 }
 .planet#earth {
     background-image: url('../img/planet/earth.jpg');
     transform: rotate(23.4393deg);
 }
+.planet#earth .tooltip {
+    transform: rotate(-23.4393deg);
+}
 .planet#mars {
     background-image: url('../img/planet/mars.jpg');
+    transform: rotate(25.2deg);
+}
+.planet#mars .tooltip {
+    transform: rotate(-25.2deg);
 }
 .planet#jupiter {
     background-image: url('../img/planet/jupiter.jpg');
+    transform: rotate(3.1deg);
+}
+.planet#jupiter .tooltip {
+    transform: rotate(3.1deg);
 }
 .planet#saturn {
     background-image: url('../img/planet/saturn.jpg');
+    transform: rotate(26.7deg);
+}
+.planet#saturn .tooltip {
+    transform: rotate(-26.7deg);
 }
 .planet#uranus {
     background-image: url('../img/planet/uranus.jpg');
+    transform: rotate(97.8deg);
+}
+.planet#uranus .tooltip {
+    transform: rotate(-97.8deg);
 }
 .planet#neptune {
     background-image: url('../img/planet/neptune.jpg');
+    transform: rotate(28.3deg);
+}
+.planet#neptune .tooltip {
+    transform: rotate(-28.3deg);
 }
