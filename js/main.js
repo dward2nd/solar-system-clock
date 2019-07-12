@@ -51,7 +51,7 @@ window.addEventListener("load", function() {
         loadpage.style.display = 'none';
     }, 2000);
     
-    for(i=0; i<8; i++) {
+    for(var i=0; i<8; i++) {
         // set orbit
         orbitEl[i].style.width = planet[i].shownOrbit + 'vmin';
         orbitEl[i].style.height = planet[i].shownOrbit + 'vmin';
@@ -64,9 +64,11 @@ window.addEventListener("load", function() {
         planetEl[i].style.height = planet[i].shownLength + 'vmin';
 
         // set circular rotator
-        circularRotator[i].style.width = planet[i].shownLength + 'vmin';
-        circularRotator[i].style.height = planet[i].shownLength + 'vmin';
-        circularRotator[i].style.marginLeft = '-' + (planet[i].shownLength / 2) + 'vmin';
-        circularRotator[i].style.marginTop = '-' + (planet[i].shownLength / 2) + 'vmin';
+        
+        circularRotator[i].style.width = (planet[i].shownLength + 1) + 'vmin';
+        circularRotator[i].style.height = (planet[i].shownLength + 1) + 'vmin';
+        
+        circularRotator[i].style.marginLeft = '-' + (planet[i].shownLength / 2 + 0.5) + 'vmin';
+        circularRotator[i].style.marginTop = '-' + (planet[i].shownLength / 2 + 0.5) + 'vmin';
     }
 });

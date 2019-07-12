@@ -50,6 +50,16 @@
     }
 }
 
+.circularRotator {
+    animation-name: fixOrbitTilt;
+    animation-play-state: paused;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    box-sizing: border-box;
+    padding-left: 0.5vmin;
+    padding-top: 0.5vmin;
+}
 
 .planet {
     border-radius: 50%;
@@ -84,12 +94,14 @@
 }
 .planet#mercury {
     background-image: url('../img/planet/mercury.jpg');
+    transform: rotate(0deg);
 }
 .planet#venus {
     background-image: url('../img/planet/venus.jpg');
 }
 .planet#earth {
     background-image: url('../img/planet/earth.jpg');
+    transform: rotate(23.4393deg);
 }
 .planet#mars {
     background-image: url('../img/planet/mars.jpg');

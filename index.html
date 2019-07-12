@@ -22,67 +22,76 @@
         <h1>กรุณารอสักครู่</h1>
     </div>
     <div id="solar-system">
-        <div class="planet" id="sun"></div>
-        <div class="orbit" id="mercury">
-            <div class="tooltip">พุธ</div>
-            <div class="circularRotator" id="mercury">
-                <div class="planet" id="mercury"></div>
-            </div>
-        </div>
-        <div class="orbit" id="venus">
-            <div class="tooltip">ศุกร์</div>
-            <div class="circularRotator" id="venus">
-                <div class="planet" id="venus"></div>
-            </div>
-        </div>
-        <div class="orbit" id="earth">
-            <div class="tooltip">โลก</div>
-            <div class="circularRotator" id="earth">
-                <div class="planet" id="earth"></div>
-            </div>
-        </div>
-        <div class="orbit" id="mars">
-            <div class="tooltip">อังคาร</div>
-            <div class="circularRotator" id="mars">
-                <div class="planet" id="mars"></div>
-            </div>
-        </div>
-        <div class="orbit" id="jupiter">
-            <div class="tooltip">พฤหัส</div>
-            <div class="circularRotator" id="jupiter">
-                <div class="planet" id="jupiter"></div>
-            </div>
-        </div>
-        <div class="orbit" id="saturn">
-            <div class="tooltip">เสาร์</div>
-            <div class="circularRotator" id="saturn">
-                <div class="planet" id="saturn"></div>
+        <div class="orbit" id="neptune">
+            <div class="circularRotator" id="neptune">
+                <div class="planet" id="neptune">
+                    <span class="tooltip">เนปจูน</span>
+                </div>
             </div>
         </div>
         <div class="orbit" id="uranus">
-            <div class="tooltip">ยูเรนัส</div>            
             <div class="circularRotator" id="uranus">
-                <div class="planet" id="uranus"></div>
+                <div class="planet" id="uranus">
+                    <span class="tooltip">เนปจูน</span>
+                </div>
             </div>
         </div>
-        <div class="orbit" id="neptune">
-            <div class="tooltip">เนปจูน</div>
-            <div class="circularRotator" id="neptune">
-                <div class="planet" id="neptune"></div>
+        <div class="orbit" id="saturn">
+            <div class="circularRotator" id="saturn">
+                <div class="planet" id="saturn">
+                    <span class="tooltip">เนปจูน</span>
+                </div>
             </div>
         </div>
+        <div class="orbit" id="jupiter">
+            <div class="circularRotator" id="jupiter">
+                <div class="planet" id="jupiter">
+                    <span class="tooltip">เนปจูน</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="orbit" id="mars">
+            <div class="circularRotator" id="mars">
+                <div class="planet" id="mars">
+                    <span class="tooltip">เนปจูน</span>
+                </div>
+            </div>
+        </div>
+        <div class="orbit" id="earth">
+            <div class="circularRotator" id="earth">
+                <div class="planet" id="earth">
+                    <span class="tooltip">เนปจูน</span>
+                </div>
+            </div>
+        </div>
+        <div class="orbit" id="venus">
+            <div class="circularRotator" id="venus">
+                <div class="planet" id="venus">
+                    <span class="tooltip">เนปจูน</span>
+                </div>
+            </div>
+        </div>
+        <div class="orbit" id="mercury">
+            <div class="circularRotator" id="mercury">
+                <div class="planet" id="mercury">
+                    <span class="tooltip">เนปจูน</span>
+                </div>
+            </div>
+        </div>
+        <div class="planet" id="sun"></div>
     </div>
 
     <div id="control-panel">
-        <!-- assume we use 1s = 1 dau -->
+        <!-- assume we use 1s = 1 day -->
         ความเร็ว  <input type="number" id="speed" min="0" value="0">  วัน / วินาที
         <!-- <button id="setSpeed">ตั้งความเร็ว</button> -->
     </div>
 
     <!-- Script -->
     <script src="js/planet.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/onclicksetspeed.js"></script>
     <script src="js/onplanethover.js"></script>
-    <script src="js/main.js"></script>
 </body>
 </html>
